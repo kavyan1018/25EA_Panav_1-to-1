@@ -1,0 +1,23 @@
+switch case is  a control statement that allows a variable to be tested for equality against a list of values.
+
+
+            this is a like mcq formate 
+
+
+    syntax :
+
+            // expression that take input from user -> as per user choice         
+        switch(expression){
+
+            case 1:
+                // code to be executed if case 1 is true
+                break;
+
+            case 2:
+                // code to be executed if case 2 is true
+                break;
+
+            default:
+                // code to be executed if all cases are false
+
+        } // end of switch case
