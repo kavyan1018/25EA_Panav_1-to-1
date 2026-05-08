@@ -1,0 +1,71 @@
+there is total 3 types of loops in c language
+
+    1. for loop 
+    2. while loop
+    3. do while loop
+
+
+
+
+    types of loops 
+        -> entry control loop
+                -> conditions are checked before the execution of loop body
+        -> exit control loop  
+                -> conditions are checked after the execution of loop body
+
+
+
+                                                                    types of loops
+                                                                           |
+            ---------------------------------------------------------------------------------------------------------------------------
+            |                                                                                                                         |
+    entry control loop                                                                                                      exit control loop
+            |                                                                                                                         |
+    ----------------                                                                                                          ------------------
+    |               |                                                                                                                 |
+  for loop       while loop                                                                                                    do while loop
+
+
+
+initialization : it is used to initialize the loop variable before the start of the loop
+
+condition : it is used to check the condition for the loop to execute. If the condition is true, the loop body will be executed. If the condition is false, the loop will be terminated(Stopped).
+
+increment/decrement : it is used to update the loop variable after each iteration of the loop. It can be used to increment or decrement the loop variable based on the requirement.
+
+
+Syntax : 
+
+                    entry control loop
+                    --------------- 
+
+                    1. For loop
+                        for(initialization; condition; increment/decrement){
+                            // Execution of loop body
+                        }
+
+
+                    2. While loop
+                        int initialization;   // 1st way
+
+
+                        initialization;          // 2nd way
+                        while(condition){
+                            // Execution of loop body
+                            // update loop variable  -> increment/decrement
+                        }
+
+
+
+                    exit control loop
+                    -----------------
+
+                    3. Do while loop
+                        int initialization;   // 1st way
+
+
+                        initialization;          // 2nd way
+                        do{
+                            // Execution of loop body
+                            // update loop variable  -> increment/decrement
+                        }while(condition);
